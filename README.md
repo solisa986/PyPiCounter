@@ -1,7 +1,7 @@
 # PyPi-Counter
 
 ![PyPi-Counter](picture/design.png)
-<br>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![example workflow](https://github.com/cmpsc-481-s22-m1/PyPiCounter/actions/workflows/main.yml/badge.svg)
 ![github issues](https://img.shields.io/github/issues/cmpsc-481-s22-m1/PyPiCounter)
@@ -66,6 +66,9 @@ Throughout this example, `analyze` is an instance variable that stores the
 result of the parsed file. Functions must be called on a parsed file.
 4. Add the following syntax inside your main function: `command_line_interface.main(analyze)`.
 This will display the counting results for **all** of our available functions in the format that they are given.
+
+
+________________________________________________________________________________
 
 
 Alternatively, the following steps should be used if you would like to add the PyPi-Counter as a part of your program or project. This will ensure that only specified functions will be displayed in your output along with the rest of your program.
